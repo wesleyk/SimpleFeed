@@ -1,0 +1,9 @@
+-For RSS/Atom Feeds we should save things in the DB and just have the user pull them
+	-probably could do this for public twitter feeds, but don't know how to differentiate between public/private ones
+-Facebook will be done per user per page access? The "hide if seen" feature will be difficult in this respect as we wont be storing them. I guess we can do some sort of a recently seen FBCache and just hold query on the last 25 or so.
+-We should do Feeds of Feeds. Have one total feed and then let the user pick and choose with folders or something.
+-MongoDB for storage?
+-Try Typescript? Or just do Javascript, I'll do whatever but I think it could be cool to try it.
+-I'll set up Heroku and we can figure out how that works.
+-Should we use Foundation again? I'm not too knowledgeable about frontend things.
+-I put a diagram up on the feed structure i was thinking. It should naturally translate to Scala, but the diagrammer i used had weird type issues so I couldn't do Seq[FeedElement], etc.
