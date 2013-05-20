@@ -1,6 +1,6 @@
 package models
 
-case class User(id: Long, username: String, passwordHash: String, stories: Set[Story])
+case class User(id: Long, username: String, passwordHash: String, feed: Set[FeedElement])
 
 object User {
         def create(username: String, password: String) {}
